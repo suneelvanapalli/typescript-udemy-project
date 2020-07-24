@@ -11,3 +11,10 @@ const person: { name: string; age: number; hobbies: string[]; role: age } = {
 };
 
 const nane: string = '';
+
+const hobbies = ['cooking', 'painting'];
+const activehobbies = ['pnig pong'];
+
+activehobbies.push(...hobbies);
+
+console.log(activehobbies);
